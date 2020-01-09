@@ -1,0 +1,61 @@
+{
+  "name": "shopify-vue-demo",
+  "description": "Vue.js Shopify app",
+  "version": "1.0.0",
+  "author": "jetBn",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
+    "serve": "cross-env NODE_ENV=development node_modules/.bin/vue-cli-service serve --open",
+    "set-build": "cross-env NODE_ENV=production node_modules/.bin/vue-cli-service build"
+  },
+  "dependencies": {
+    "@eastsideco/polaris-vue": "^0.1.19",
+    "@vue/cli-service": "^4.1.2",
+    "@vue/composition-api": "^0.3.4",
+    "axios": "^0.19.1",
+    "serve": "^11.3.0",
+    "vue": "^2.5.11",
+    "vue-color": "^2.7.0",
+    "vue-router": "^3.1.3"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^7.1.1",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "cross-env": "^6.0.3",
+    "crypto": "^1.0.1",
+    "css-loader": "^0.28.7",
+    "eslint": "^3.19.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-html": "^3.0.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.2.0",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "eslint-plugin-vue": "^6.1.2",
+    "file-loader": "^1.1.4",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.13.0",
+    "querystring": "^0.2.0",
+    "sass-loader": "^8.0.0",
+    "terser-webpack-plugin": "^2.3.1",
+    "vue-loader": "^15.8.3",
+    "vue-template-compiler": "^2.4.4",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  }
+}
